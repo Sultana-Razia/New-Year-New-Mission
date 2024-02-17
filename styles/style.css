@@ -1,0 +1,391 @@
+/* Common Styles */
+
+* {
+    margin: 0 auto;
+    font-family: Merriweather;
+}
+
+.container {
+    width: 83%;
+    margin: 0 140px 120px 140px;
+}
+
+/* Header Styles */
+
+header {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    padding: 177px 0;
+}
+
+.banner h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Offer Section Styles */
+.offer-section {
+    text-align: center;
+}
+
+.offer-section h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-section h6 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-section h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+/* Party Section Styles */
+.party-section {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 126px;
+}
+
+
+.text-area h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.text-area p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.text-area button {
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/*  */
+.party-place {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    height: 482px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.party-place h5 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.party-place button {
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+/* Coming Soon Section Styles  */
+.coming-soon-section {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: left;
+}
+
+.coming-soon-section .coming-soon-img {
+    margin: 50px;
+}
+
+
+.coming-soon-section .coming-soon-text1,
+.coming-soon-text2 {
+    width: 30%;
+}
+
+.coming-soon-section .coming-soon-text1,
+.coming-soon-text2 {
+    padding-top: 200px;
+}
+
+.coming-soon-section .coming-soon-text1 h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.coming-soon-section .coming-soon-text1 h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.coming-soon-section .coming-soon-text1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.coming-soon-section .coming-soon-img {
+    box-sizing: border-box;
+    padding: 50px;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.coming-soon-section .coming-soon-text2 h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-section .coming-soon-text2 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+/* Holiday Section Styles */
+
+.holidays-section {
+    height: 986.07px;
+}
+
+.holidays-section .holidays-text h5 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.holidays-section .holidays-text h1 {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.holidays-section .holidays-text p {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    max-width: 1068px;
+}
+
+.holidays-section .holidays-text .primary-color {
+    color: rgb(255, 0, 0);
+}
+
+.holidays-image {
+    position: relative;
+    bottom: 450px;
+}
+
+.holidays-section .holidays-image .holidays-img1 {
+    position: relative;
+    top: 530px;
+}
+
+.holidays-section .holidays-image .holidays-img2 {
+    position: relative;
+    top: 315px;
+    left: 90px;
+}
+
+.holidays-section .holidays-image .holidays-img3 {
+    position: relative;
+    left: 700px;
+}
+
+/* Portfolio Section Styles */
+
+
+.portfolio-section .portfolio-section-text h5 {
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+
+.portfolio-section .portfolio-section-text h3 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolio-section .portfolio-section-text p {
+    font-size: 20px;
+    text-align: left;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.portfolio-section .portfolio-section-img img {
+    width: 390px;
+    padding: 10px;
+}
+
+.portfolio-section-img {
+    margin-top: 20px;
+}
+
+.holidays-section .portfolio-section-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Newsletter Styles */
+
+.news-letter {
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
+
+.news-letter .news-letter-text {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.news-letter .news-letter-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 40px;
+}
+
+.news-letter .news-letter-text p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+    width: 68%;
+}
+
+.news-letter form {
+    max-width: 648px;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+.news-letter form input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.news-letter form button {
+    padding: 24px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+/* Footer Styles */
+footer {
+    background: rgb(7, 2, 17);
+    height: 400px;
+    color: rgb(255, 255, 255);
+    padding: 120px 140px;
+}
+
+footer .address {
+    display: flex;
+}
+
+.address .address-text {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    font-family: Inter;
+}
+
+.address-img>* {
+    display: inline;
+}
+
+.address-img p {
+    position: relative;
+    bottom: 5px;
+    padding-left: 5px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+    margin-right: 20px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 48px 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 120px;
+}
